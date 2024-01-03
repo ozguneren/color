@@ -1,8 +1,3 @@
-## Update: 8th Jan, 2022
-## this file is supposed to give you a general idea on how to
-## use the pre-trained model for colorizing B&W images. This
-## file still needs development.
-
 import PIL
 import torch
 from matplotlib import pyplot as plt
