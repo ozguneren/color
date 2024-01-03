@@ -8,8 +8,6 @@ from utils import lab_to_rgb
 
 if __name__ == '__main__':
     model = MainModel()
-    # You first need to download the final_model_weights.pt file from my drive
-    # using the command: gdown --id 1lR6DcS4m5InSbZ5y59zkH2mHt_4RQ2KV
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model.load_state_dict(
         torch.load(
